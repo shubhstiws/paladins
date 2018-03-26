@@ -21,12 +21,14 @@ import hashlib #for calculating MD5 hash
 Check if the package installation worked correctly by calling the function 
 
 ```python 
-jenos()```
+jenos()
+```
 
 If you get the output 
 
 ```python 
-'Step into the light!'``` 
+'Step into the light!
+'``` 
 
 the installation is good!
 
