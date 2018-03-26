@@ -1,4 +1,6 @@
-# paladins
+# Paladins
+
+![]('logo.png')
 
 ## Python implementation of the Paladins and Smite APIs
 
@@ -6,7 +8,13 @@ I have created python equivalent of functions offered by Hi Rez paladins and smi
 
 ## Next steps:
 
+* [x] Remove time zone hardcoding
+* [x] Automate new session creation when current session expires
 * [ ] Complete code for all functions
 * [ ] Write function for choosing Xbox, PS4 and PC
 * [ ] Extract and build database for top players and teams
 * [ ] Parse data into csv to be used in R for analysis and visualization
+
+## Featured Art
+
+![]('jenos.jpg')
