@@ -32,7 +32,7 @@ If you get the output
 
 the installation is good!
 
-Call the function keys(DevId, AuthenticationKey) and pass your devid and authentication keys which can be obtained by submitting a request to HiRez Dev team. This sets up the keys in the global variables to be used by other functions
+Call the function `keys(DevId, AuthenticationKey)` and pass your devid and authentication keys which can be obtained by submitting a request to HiRez Dev team. This sets up the keys in the global variables to be used by other functions
 
 For now I have ensured that you do not have to take care of your current timezone while making API calls, but if you still get timestamp errors then check the timestamp of the server and adjust your timestamp accordingly. I also create a new session automatically if the current session expires but have not tested this throughly
 
@@ -46,6 +46,18 @@ testsession() #get session information
 gethirezserverstatus() #check server status
 getdataused() #get stats on current session usage
 getfriends(ign) #get all friends of a in game paladins name
+```
+
+## Sample Use
+
+`pip install pyladins`
+
+```python
+import pyladins
+pyladins.jenos()
+pyladins.keys('XXXX','XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+pyladins.setup()
+pyladins.ping()
 ```
 
 ## Smite functions
