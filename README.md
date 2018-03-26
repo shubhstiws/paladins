@@ -1,6 +1,6 @@
 # Paladins
 
-![]('logo.png')
+![]('https://github.com/shubhstiws/paladins/blob/master/logo.png')
 
 ## Python implementation of the Paladins and Smite APIs
 
@@ -17,4 +17,4 @@ I have created python equivalent of functions offered by Hi Rez paladins and smi
 
 ## Featured Art
 
-![]('jenos.jpg')
+![]('https://github.com/shubhstiws/paladins/blob/master/jenos.jpg')
