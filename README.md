@@ -27,8 +27,8 @@ jenos()
 If you get the output 
 
 ```python 
-'Step into the light!
-'``` 
+'Step into the light!'
+``` 
 
 the installation is good!
 
