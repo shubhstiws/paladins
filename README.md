@@ -20,9 +20,15 @@ import hashlib #for calculating MD5 hash
 
 Check if the package installation worked correctly by calling the function 
 
-```python jenos()```
+```python 
+jenos()```
 
-If you get the output ```python 'Step into the light!'``` the installation is good!
+If you get the output 
+
+```python 
+'Step into the light!'``` 
+
+the installation is good!
 
 Call the function keys(DevId, AuthenticationKey) and pass your devid and authentication keys which can be obtained by submitting a request to HiRez Dev team. This sets up the keys in the global variables to be used by other functions
 
